@@ -10,7 +10,7 @@ group :development do
 end
 
 gem "pg"
-
+gem "login_radius", :git => "git://github.com/bhgames/login_radius.git"
 
 # Gems used only for assets and not required
 # in production environments by default.

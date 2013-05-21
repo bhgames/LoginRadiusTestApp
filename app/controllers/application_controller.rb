@@ -7,6 +7,11 @@ class ApplicationController < ActionController::Base
   
   def callback
     p params
-    head :no_content
+    @user_profile = LoginRadius::UserProfile.new({
+      :token => params[:token],
+      :secret => "1337670d-f7fd-4066-a2e3-e440aec071ee",
+      :async => false
+    })
+    @user_profile.login
   end
 end
