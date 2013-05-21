@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/bhgames/login_radius.git
-  revision: d3c2294d47d7782f2bdf55837be0513b6d28d08b
+  revision: 71651b17244015a2778918705cee8aa8e6756b1b
   specs:
     login_radius (0.0.1)
       em-http-request
